@@ -1,5 +1,5 @@
 {{ config(materialized='table') }}
 
-select * from testtable
+select count(*) from testtable
 
 -- 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
